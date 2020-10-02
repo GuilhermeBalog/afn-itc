@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "gmichelassi",
+      "name": "Gabriel",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/49728225?v=4",
+      "profile": "https://github.com/gmichelassi",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "afn-itc",
+  "projectOwner": "GuilhermeBalog",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
