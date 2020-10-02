@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "gmichelassi",
+      "name": "Gabriel",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/49728225?v=4",
+      "profile": "https://github.com/gmichelassi",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "GuilhermeBalog",
       "name": "Guilherme Balog Gardino",
       "avatar_url": "https://avatars0.githubusercontent.com/u/38947601?v=4",
