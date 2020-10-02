@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "GuilhermeBalog",
+      "name": "Guilherme Balog Gardino",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/38947601?v=4",
+      "profile": "http://guilhermebalog.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "afn-itc",
+  "projectOwner": "GuilhermeBalog",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
