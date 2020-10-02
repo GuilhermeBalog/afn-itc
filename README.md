@@ -41,6 +41,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/gmichelassi"><img src="https://avatars2.githubusercontent.com/u/49728225?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel</b></sub></a><br /><a href="https://github.com/GuilhermeBalog/afn-itc/commits?author=gmichelassi" title="Code">💻</a></td>
+    <td align="center"><a href="http://guilhermebalog.github.io"><img src="https://avatars0.githubusercontent.com/u/38947601?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Balog Gardino</b></sub></a><br /><a href="https://github.com/GuilhermeBalog/afn-itc/commits?author=GuilhermeBalog" title="Code">💻</a></td>
   </tr>
 </table>
 
