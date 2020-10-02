@@ -4,28 +4,28 @@ import java.io.FileReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class AFN {
+public class afn {
     public static void main(String[] args) {
         Scanner sc = null;
 
-        try{
+        try {
             sc = new Scanner(new BufferedReader(new FileReader("ArqTeste.txt")));
 
             int numeroDeAutomatos = sc.nextInt();
-            for(int i = 0; i < numeroDeAutomatos; i++){
+            for (int i = 0; i < numeroDeAutomatos; i++) {
                 Automato afn = contruirAutomato(sc);
-                    
+
                 int qtdCadeias = sc.nextInt();
                 sc.nextLine();
                 boolean[] avaliacao = new boolean[qtdCadeias];
-                for(int j = 0; j < qtdCadeias; j++)
+                for (int j = 0; j < qtdCadeias; j++)
                     avaliacao[j] = afn.cadeiaEhValida(sc.nextLine());
                 System.out.println(Arrays.toString(avaliacao));
             }
-        }catch (FileNotFoundException ex){
+        } catch (FileNotFoundException ex) {
             System.out.println("File not found");
-        }finally{
-            if(sc != null)
+        } finally {
+            if (sc != null)
                 sc.close();
         }
     }
@@ -38,12 +38,12 @@ public class AFN {
         int numeroDeEstadosDeAceitacao = sc.nextInt();
 
         int[] estadosDeAceitacao = new int[numeroDeEstadosDeAceitacao];
-        for(int j = 0; j < numeroDeEstadosDeAceitacao; j++)
+        for (int j = 0; j < numeroDeEstadosDeAceitacao; j++)
             estadosDeAceitacao[j] = sc.nextInt();
-        
+
         sc.nextLine();
         String[] transicoes = new String[numeroDeTransicoes];
-        for(int j = 0; j < numeroDeTransicoes; j++)
+        for (int j = 0; j < numeroDeTransicoes; j++)
             transicoes[j] = sc.nextLine();
 
         Automato afn = new Automato(numeroDeEstados, numeroDeSimbolos, transicoes, estadoInicial, estadosDeAceitacao);
