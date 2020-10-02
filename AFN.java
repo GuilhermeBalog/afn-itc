@@ -9,7 +9,7 @@ public class AFN {
         Scanner sc = null;
 
         try{
-            sc = new Scanner(new BufferedReader(new FileReader("ArqTeste.txt")));
+            sc = new Scanner(new BufferedReader(new FileReader(args[0])));
 
             int numeroDeAutomatos = sc.nextInt();
             for(int i = 0; i < numeroDeAutomatos; i++){
